@@ -1,0 +1,88 @@
+/* Estilo global para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Estilo para o conteúdo do artigo */
+article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os títulos */
+h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+h2:hover {
+    color: #e74c3c;
+}
+
+/* Estilo para os parágrafos */
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Estilo para a lista não ordenada */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os itens da lista */
+ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Destacar texto importante */
+.highlight {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Estilo para links ou interações */
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Estilo para o rodapé, caso queira adicionar */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
