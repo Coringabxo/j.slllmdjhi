@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGB vs CMYK - Conceitos e Exemplos</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Estilo global para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Estilo para o conteúdo do artigo */
+article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os títulos */
+h2 {
+    color: #2c3e50;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+h2:hover {
+    color: #e74c3c;
+}
+
+/* Estilo para os parágrafos */
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Estilo para a lista não ordenada */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os itens da lista */
+ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Destacar texto importante */
+.highlight {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+/* Estilo para links ou interações */
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Estilo para o rodapé, caso queira adicionar */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+h1, h2 {
+    color: #1a73e8;
+}
+p {
+    line-height: 1.6;
+}
+.example {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 10px 0;
+}
+.color-box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.red { background-color: red; }
+.green { background-color: green; }
+.blue { background-color: blue; }
+.yellow { background-color: yellow; }
+.cyan { background-color: cyan; }
+.magenta { background-color: magenta; }
+.white { background-color: white; border: 1px solid #ccc; }
+.black { background-color: black; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Entenda os Modelos de Cores RGB e CMYK</h1>
+    <p>Eer>
+
+  <section class="intro">
+    <h2>O que são RGB e CMYK?</h2>
+    <p>RGB (Red, Green, Blue) e CMYK (Ciano, Magenta, Amarelo, Preto) são dois modelos de cores amplamente usados em diferentes contextos. RGB é utilizado para telas digitais, enquanto CMYK é usado em impressões.</p>
+    <img src="https://imprensa.ufc.br/wp-content/uploads/2018/09/rgb-cmyk.jpg" alt="RGB vs CMYK" class="intro-image">
+  </section>
+
+  <section class="rgb-section">
+    <h2>Modelo RGB - Red, Green, Blue</h2>
+    <p>O modelo RGB é utilizado para telas, como monitores de computador, smartphones e televisores. As cores são criadas a partir da mistura de três cores primárias: Vermelho (Red), Verde (Green) e Azul (Blue).</p>
+    <img src="https://instrucoes.cartoesmaisbarato.com.br/wp-content/uploads/2021/12/img_01.jpg" alt="Exemplo RGB" class="model-image">
+    <p>Quanto mais forte for cada cor primária, mais intensa a cor resultante será. Por exemplo, <b>rgb(255, 0, 0)</b> cria um vermelho intenso, enquanto <b>rgb(0, 0, 255)</b> gera um azul.</p>
+  </section>
+
+  <section class="cmyk-section">
+    <h2>Modelo CMYK - Ciano, Magenta, Amarelo, Preto</h2>
+    <p>O modelo CMYK é utilizado em impressões. As cores são criadas a partir de quatro tintas: Ciano (C), Magenta (M), Amarelo (Y) e Preto (K). Ele funciona subtraindo cores da luz branca.</p>
+    <img src="https://via.placeholder.com/600x400/00c0ff/ffffff?text=CMYK" alt="Exemplo CMYK" class="model-image">
+    <p>Quando você mistura o ciano, magenta e amarelo, as cores se combinam para formar outras cores. O preto é usado para adicionar profundidade e contraste à impressão.</p>
+  </section>
+
+
+  <section class="comparison-section">
+    <h2>Comparando RGB e CMYK</h2>
+    <p>Embora ambos sejam usados para criar cores, a principal diferença entre eles é o contexto em que são aplicados:</p>
+    <ul>
+      <li><b>RGB:</b> Usado para dispositivos que emitem luz (telas de computador, TVs, câmeras digitais).</li>
+      <li><b>CMYK:</b> Usado em impressoras que trabalham com pigmentos e tintas para gerar cores.</li>
+    </ul>
+    <img src="https://via.placeholder.com/1200x400/000000/FFFFFF?text=RGB+vs+CMYK+Comparação" alt="Comparação RGB vs CMYK" class="comparison-image">
+  </section>
+
+  <section class="conclusion">
+    <h2>Conclusão</h2>
+    <p>Em resumo, o modelo RGB é ideal para telas e dispositivos que emitem luz, enquanto o CMYK é mais adequado para a impressão. Ambos são fundamentais no design gráfico, pois você pode precisar usar um ou outro dependendo da mídia final (digital ou impressa).</p>
+  </section>
+
+  <h1>Modelo Aditivo de Cores</h1>
+  <p>O modelo aditivo de cores explica como as cores são criadas pela combinação de luzes de diferentes cores primárias. No modelo aditivo, as três cores primárias são o <strong>vermelho</strong>, <strong>verde</strong> e <strong>azul</strong> (RGB). A principal ideia é que, ao combinar essas cores com diferentes intensidades de luz, podemos criar uma ampla gama de cores.</p>
+
+  <h2>Intensidade da Luz</h2>
+  <p>O modelo aditivo se baseia no princípio de que a luz é composta de diferentes comprimentos de onda. A intensidade da luz de cada cor primária pode ser ajustada para influenciar o resultado da cor combinada. Quando a luz dessas cores é combinada em diferentes intensidades, novas cores são geradas.</p>
+
+  <h2>Combinação das Cores Primárias</h2>
+  <p>Veja como as três cores primárias (vermelho, verde e azul) se combinam para formar outras cores:</p>
+ 
+  <div class="example">
+      <h3>Exemplos de Combinação de Cores:</h3>
+      <div class="color-box red"></div><div class="color-box green"></div><div class="color-box yellow"></div>
+      <p><strong>Vermelho + Verde</strong> = <strong>Amarelo</strong></p>
+
+      <div class="color-box green"></div><div class="color-box blue"></div><div class="color-box cyan"></div>
+      <p><strong>Verde + Azul</strong> = <strong>Ciano</strong></p>
+
+      <div class="color-box blue"></div><div class="color-box red"></div><div class="color-box magenta"></div>
+      <p><strong>Azul + Vermelho</strong> = <strong>Magenta</strong></p>
+
+      <div class="color-box red"></div><div class="color-box green"></div><div class="color-box blue"></div><div class="color-box white"></div>
+      <p><strong>Vermelho + Verde + Azul (máxima intensidade)</strong> = <strong>Branco</strong></p>
+
+      <div class="color-box black"></div>
+      <p><strong>Sem luz (intensidade mínima)</strong> = <strong>Preto</strong></p>
+  </div>
+
+  <h2>Como a Intensidade da Luz Influencia a Cor</h2>
+  <p>Se a intensidade da luz de uma das cores primárias é aumentada, a cor resultante tende a ser mais próxima da cor primária que tem maior intensidade. Por exemplo, se a intensidade da luz vermelha for aumentada, a cor resultante será mais próxima do vermelho. O mesmo vale para o verde e o azul.</p>
+
+  <p>Este modelo é amplamente utilizado em dispositivos como telas de computadores, televisores e projetores, onde as cores são criadas pela combinação de luzes vermelha, verde e azul.</p>
+</body>
